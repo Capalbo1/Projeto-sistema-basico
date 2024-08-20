@@ -98,3 +98,30 @@ th {
 .clients-table th {
     background-color: #f2f2f2;
 }
+
+.clients-table .editar, .clients-table .apagar {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+    margin: 0 5px; /* Espaço entre os botões */
+}
+
+.clients-table .editar {
+    background-color: #f0ad4e; /* Cor padrão para o botão de editar */
+}
+
+.clients-table .editar:hover {
+    background-color: #ec971f; /* Cor de hover para o botão de editar */
+}
+
+.clients-table .apagar {
+    background-color: #d9534f; /* Cor padrão para o botão de apagar */
+}
+
+.clients-table .apagar:hover {
+    background-color: #c9302c; /* Cor de hover para o botão de apagar */
+}

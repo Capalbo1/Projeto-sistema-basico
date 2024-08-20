@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-bt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MARCELO</title>
+    <title>OFICINA MECÂNICA SOARES</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="CAR.png" type="image/x-icon">
 </head>
@@ -30,6 +30,10 @@
                         <td><input type="text" id="placa" class="input-field"></td>
                     </tr>
                     <tr>
+                        <td><label for="quilometragem">Quilometragem:</label></td>
+                        <td><input type="number" id="quilometragem" class="input-field"></td>
+                    </tr>
+                    <tr>
                         <td><label for="observacao">Observação:</label></td>
                         <td><input type="text" id="observacao" class="input-field"></td>
                     </tr>
@@ -42,9 +46,11 @@
             <table class="clients-table">
                 <thead>
                     <tr>
+                        <th>ID</th>
                         <th>Nome</th>
                         <th>Carro</th>
                         <th>Placa</th>
+                        <th>Quilometragem</th>
                         <th>Observação</th>
                         <th>Ação</th>
                     </tr>
@@ -55,6 +61,6 @@
             </table>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
